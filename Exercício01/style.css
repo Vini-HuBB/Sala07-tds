@@ -9,17 +9,20 @@ body{
 
 button{
     background-color:purple;
-    color: black;
+    color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 999px;
     font-size: 20px;
-
     border: 3px solid purple;
+    transition: all 200ms linear;
 }
 
 button:hover{
     background-color: transparent;
     border: 3px solid purple;
     cursor: pointer;
+    box-shadow:rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px
+    color rgb(rgb(255, 47, 220)
+    
 }
