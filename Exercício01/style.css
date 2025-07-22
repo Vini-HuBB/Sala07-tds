@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+button{
+    background-color:purple;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 999px;
+    font-size: 20px;
+
+    border: 3px solid purple;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 3px solid purple;
+    cursor: pointer;
+}
